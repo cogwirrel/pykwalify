@@ -40,6 +40,7 @@ Release Notes
  - Implmenet keyword *date* and added support keyword *format*. This can be used to validate many different types of datetime objects.
  - Value for keyword *desc* now *MUST* be a string or a RuleError will be raised.
  - Value for keyword *example* now *MUST* be a string or a RuleError will be raised.
+ - Fixed a bug where include directive would not work in all cases when used inside a key in a mapping block.
 
 
 1.5.2 (Nov 12, 2016)
